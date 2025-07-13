@@ -15,4 +15,4 @@ console.log(str.trim());//обрізае пробіли спереду і поз
 console.log(str.includes("@"));//превіряє наявність цих символів 
 // але залєжит від регістру
 console.log(str.indexOf("Maria"));//яке місце займає цей символ
-console.log(str.includes("@"));// -1 означае що немає //dshfdhfsj
+console.log(str.includes("@"));// -1 означае що немає 
