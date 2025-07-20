@@ -60,11 +60,12 @@ console.log(!false);
 // -1, якщо меньше нуля,
 // 0, якщо дорівнює нулю.
 
-const number = prompt("ввиди якесь число");
-if (number > 0) {
-  console.log(1);
-} else if (number < 0) {
-  console.log(-1);
-} else if (number == 0) {
-  console.log(0);
-}
+// const number = prompt("ввиди якесь число");
+// if (number > 0) {
+//   console.log(1);
+// } else if (number < 0) {
+//   console.log(-1);
+// } else if (number == 0) {
+//   console.log(0);
+// }
+
