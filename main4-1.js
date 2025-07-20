@@ -37,10 +37,34 @@ console.log(!false);
 //console.log("ти перволітній");
 //}
 
-    // const isRain = true? 'іде дощь' : 'дощу нема'
-    // console.log(isRain);
+// const isRain = true? 'іде дощь' : 'дощу нема'
+// console.log(isRain);
 
-    const salary = 4000;
+//     const salary = 4000;
 
- const isRich = salary >= 2500? "ти багатий" : "іди працюй"
- console.log(isRich);
+//  const isRich = salary >= 2500? "ти багатий" : "іди працюй"
+//  console.log(isRich);
+
+// const name = prompt("яка офіційна назва JS");
+
+// const message = name === "ECMAScript" ? "правильно" : "ти шо?! не знаешь JS?";
+// console.log(message);
+// if (name === "ECMAScript") {
+//   console.log("ти молодець! правильно");
+// } else {
+//   console.log("ти шо?! не знаешь JS?");
+// }
+
+//Використовуючи if..else, напишіть код, що отримує число з інпуту і потім виводить повідомлення на екран:
+// 1, якщо значення більше нуля,
+// -1, якщо меньше нуля,
+// 0, якщо дорівнює нулю.
+
+const number = prompt("ввиди якесь число");
+if (number > 0) {
+  console.log(1);
+} else if (number < 0) {
+  console.log(-1);
+} else if (number == 0) {
+  console.log(0);
+}
