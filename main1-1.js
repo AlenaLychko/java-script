@@ -20,7 +20,7 @@ alert(nazar)
 //let headerLink = undefined;
 //console.log(headerLink)
 //string текст "fhfhks"
-//число  1 2 22 1.3 
+//number  1 2 22 1.3 
 //boolean true истинная правда false ложь
 //null нічо порожнеча пустота
 //undefined щось не вихначено або помилка 
