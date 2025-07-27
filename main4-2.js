@@ -48,3 +48,6 @@ if (totalSpent >= 5000) {
   discount = 0;
   console.log(`в тебе ще немає знижки`);
 }
+
+payment = payment - (payment * discount);
+console.log(payment);
