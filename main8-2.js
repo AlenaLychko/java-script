@@ -54,15 +54,107 @@
 //   Number(prompt("enter your salary")),
 //   Number(prompt("enter how much you want to take"))
 // );
-let total = 0;
+// let total = 0;
 
-const sum = function () {
-  for (argument of arguments) {
-    total += argument;
-  }
-  return total
+// const sum = function () {
+//   for (argument of arguments) {
+//     total += argument;
+//   }
+//   return total
+// }
+// const sum = function(...args){
+//     return args
+// }
+// console.log(sum(1, 2, 3)); // 6
+// console.log(sum(1, 2, 3, 4)); //10
+// console.log(sum(1, 2, 3, 4, 5)); // 15
+// const c = 10; //глобальна
+// if (true) {
+//   //блочна область видимості
+//   const a = -15;
+//   console.log(a);
+// }
+// function rooB() {
+//   const b = 15; //функціональна область видимості
+//   if (true) {
+//     const a = function fuA() {
+//       console.log("fuA");
+//     };
+//   }
+//   console.log(a);
+// }
+
+// const b = 10;
+// const add = function () {
+//   const a = 5;
+//    //const b = 100;
+//   return a + b;
+// };
+// console.log(add());
+
+// const value = 50;
+// const add = function (num) {
+//   const value = 10;
+//   const innerValue = 5;
+//   return num + value + innerValue;
+// };
+
+// console.log(value); // 50
+// console.log(add(20)); // 35
+
+//  console.log(innerValue)
+//  innerValue = 5;
+//   console.log(innerValue)
+// consolr.log(a)
+// var a = 15
+// consolr.log(a)
+
+// const add = function () {
+//     //var
+//    concole.log(innerValue)
+//   var innerValue = 5;
+//  concole.log(innerValue)
+
+// }
+// add()
+
+// function changeCase(string) {
+//   let result = "";
+
+//   for (let letter of string) {
+//     if (letter === letter.toLowerCase()) {
+//       result += letter.toUpperCase();
+//     } else {
+//       result += letter.toLowerCase();
+//     }
+//   }
+
+//   return result;
+// }
+// console.log(changeCase("qweRTY")); // QWErty
+// console.log(changeCase("mAnGo")); // MaNgO
+// console.log(changeCase("AjAx")); // aJaX
+
+// function isEven(numm){
+//   if( numm %2  === 0){
+//     console.log(true)}
+//     else{
+//         console.log(false)
+//     }
+// }
+
+
+
+
+// console.log(isEven(4)); // true
+// console.log(isEven(3));
+
+const factorial = function(num){
+    let result = 1;
+    for(let i=1; i<=num; i++){
+        //result*=i
+        result = result*i;
+    }
+    return console.log(result)
 }
-
-console.log(sum(1, 2, 3)); // 6
-console.log(sum(1, 2, 3, 4)); //10
-console.log(sum(1, 2, 3, 4, 5)); // 15
+factorial(5)
