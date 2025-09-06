@@ -143,18 +143,16 @@
 //     }
 // }
 
-
-
-
 // console.log(isEven(4)); // true
 // console.log(isEven(3));
 
-const factorial = function(num){
-    let result = 1;
-    for(let i=1; i<=num; i++){
-        //result*=i
-        result = result*i;
-    }
-    return console.log(result)
-}
-factorial(5)
+// const factorial = function(num){
+//     let result = 1;
+//     for(let i=1; i<=num; i++){
+//         //result*=i
+//         result = result*i;
+//     }
+//     return console.log(result)
+// }
+// factorial(5)
+
