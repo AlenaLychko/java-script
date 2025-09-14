@@ -94,15 +94,15 @@
 
 // restaurant.newInfo("457 provost 7", 4.5);
 // console.log(restaurant);
-const car = {
-  brand: "Mersedes",
-  model: "CLA 250 4MATIC",
-  year: "2025",
-  color: "white",
-  introduce() {
-    console.log(
-      `you choose ${car.brand} ${car.model} ${car.year} ${car.color}`
-    );
-  },
-};
-console.log(car);
+// const car = {
+//   brand: "Mersedes",
+//   model: "CLA 250 4MATIC",
+//   year: "2025",
+//   color: "white",
+//   introduce() {
+//     console.log(
+//       `you choose ${car.brand} ${car.model} ${car.year} ${car.color}`
+//     );
+//   },
+// };
+// console.log(car);
