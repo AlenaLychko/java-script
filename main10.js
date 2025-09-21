@@ -134,15 +134,15 @@
 //Створіть об'єкт "product" з властивостями "name",
 // "price" та "quantity". Додайте до об'єкту метод,
 //  який буде розраховувати вартість всіх товарів.
-//  Результат повинен бути виведений на екран.
-const product = {
-  name: "Phone",
-  price: 2000,
-  quantity: 5,
-  totalPrice() {
-    return `product name:${this.name},price: ${this.price}, total price: ${
-      this.price * this.quantity
-    }`;
-  },
-};
-console.log(product.totalPrice());
+// //  Результат повинен бути виведений на екран.
+// const product = {
+//   name: "Phone",
+//   price: 2000,
+//   quantity: 5,
+//   totalPrice() {
+//     return `product name:${this.name},price: ${this.price}, total price: ${
+//       this.price * this.quantity
+//     }`;
+//   },
+// };
+// console.log(product.totalPrice());
