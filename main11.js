@@ -160,22 +160,22 @@
 // };
 // console.log(getAdultUsers(data));
 
-const library = {
-  books: [],
-  lastId: 0,
-  createBook(title, author) {
-    return {
-      id: ++this.lastId,
-      title,
-      author,
-    };
-  },
-  addBook(title, author) {
-    const newBooks = this.createBook.apply(title, author);
-    this.books.push(newBoooks);
-    alert(`book${title} added to library`)
-  },
-  removeBook(id){
-    
-  }
-};
+// const library = {
+//   books: [],
+//   lastId: 0,
+//   createBook(title, author) {
+//     return {
+//       id: ++this.lastId,
+//       title,
+//       author,
+//     };
+//   },
+//   addBook(title, author) {
+//     const newBooks = this.createBook.apply(title, author);
+//     this.books.push(newBoooks);
+//     alert(`book${title} added to library`)
+//   },
+//   removeBook(id){
+
+//   }
+// };
