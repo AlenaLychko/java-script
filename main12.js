@@ -84,22 +84,33 @@
 // return newArrray},[])
 // console.log(tagsArray)
 
-const players = [
-  { id: "player-1", name: "Mango", timePlayed: 310, points: 54, online: false },
-  { id: "player-2", name: "Poly", timePlayed: 470, points: 92, online: true },
-  { id: "player-3", name: "Kiwi", timePlayed: 230, points: 48, online: true },
-  { id: "player-4", name: "Ajax", timePlayed: 150, points: 71, online: false },
-  { id: "player-5", name: "Chelsy", timePlayed: 80, points: 48, online: true },
-];
+// const players = [
+//   { id: "player-1", name: "Mango", timePlayed: 310, points: 54, online: false },
+//   { id: "player-2", name: "Poly", timePlayed: 470, points: 92, online: true },
+//   { id: "player-3", name: "Kiwi", timePlayed: 230, points: 48, online: true },
+//   { id: "player-4", name: "Ajax", timePlayed: 150, points: 71, online: false },
+//   { id: "player-5", name: "Chelsy", timePlayed: 80, points: 48, online: true },
+// ];
 
-// const summ = players.reduce((acc, val) => acc + val.timePlayed, 0);
-// console.log(summ);
 
-const totalTime = function (array) {
-  return array.reduce(
-    (accPlayers, valPlayers) => accPlayers + valPlayers.timePlayed,
-    0
-  );
-};
- console.log(totalTime(players));
+// const totalTime = function (array) {
+//   return array.reduce(
+// //     (accPlayers, valPlayers) => accPlayers + valPlayers.timePlayed,
+// //     0
+// //   );
+// // };
+// //  console.log(totalTime(players));
 
+// const array = [0,4,1,5,9,2,10,11,12]
+
+// // const sortedArray = array.sort()
+// // console.log(sortedArray) //сортировка масива за алфавитом
+
+// const sortedArray = (a,b) => b - a;
+// console.log(array.sort(sortedArray)) //сортировка по номерам 
+
+// const names = ["Anna", "olena","olexandra","nazar","vlad","vasia","polina"]
+// console.log(names.sort((a,b)=>a.localeCompare(b))) //по алфавиту
+
+const names = ['Pierre','Jean','Louis','Paul','André','François','Antoine','Jacques']
+console.log(names.sort((a,b)=>a.localeCompare(b, "ca"))) //по алфавиту
