@@ -112,5 +112,5 @@
 // const names = ["Anna", "olena","olexandra","nazar","vlad","vasia","polina"]
 // console.log(names.sort((a,b)=>a.localeCompare(b))) //по алфавиту
 
-const names = ['Pierre','Jean','Louis','Paul','André','François','Antoine','Jacques']
-console.log(names.sort((a,b)=>a.localeCompare(b, "ca"))) //по алфавиту
+// const names = ['Pierre','Jean','Louis','Paul','André','François','Antoine','Jacques']
+// console.log(names.sort((a,b)=>a.localeCompare(b, "ca"))) //по алфавиту
