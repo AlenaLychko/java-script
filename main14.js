@@ -100,3 +100,4 @@ class Person {
 
 const daria = new Person({name:'Daria', lastName:"Bova"})
 console.log(daria)
+
