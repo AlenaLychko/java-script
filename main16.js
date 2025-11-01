@@ -41,14 +41,15 @@
 // title.textContent = ('coding')
 // title.classList.add('text-acccent')
 
-const table = document.querySelector("#age-table");
-console.log(table);
+// const table = document.querySelector("#age-table");
+// console.log(table);
 
-const labels = document.querySelectorAll("label");
-console.log(labels);
+// const labels = document.querySelectorAll("label");
+// console.log(labels);
 
-const search = document.querySelector('form[name="search-person"]');
-console.log(search);
+// const search = document.querySelector('form[name="search-person"]');
+// console.log(search);
 
-const inputs = search.querySelectorAll("input");
-console.log(inputs[inputs.length - 1]);
+// const inputs = search.querySelectorAll("input");
+// console.log(inputs[inputs.length - 1]);
+
