@@ -86,14 +86,14 @@
 //   input.value = "";
 // });
 
-const images = [
-  "https://images.pexels.com/photos/16053278/pexels-photo-16053278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/13733057/pexels-photo-13733057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/15851469/pexels-photo-15851469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-];
-const gallery = document.querySelector('#gallery')
-const picture = images.map(img =>{
-    return `<img src=${img}/>`
-})
+// const images = [
+//   "https://images.pexels.com/photos/16053278/pexels-photo-16053278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+//   "https://images.pexels.com/photos/13733057/pexels-photo-13733057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+//   "https://images.pexels.com/photos/15851469/pexels-photo-15851469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+// ];
+// const gallery = document.querySelector('#gallery')
+// const picture = images.map(img =>{
+//     return `<img src=${img}/>`
+// })
 
-gallery.innerHTML = picture
+// gallery.innerHTML = picture
