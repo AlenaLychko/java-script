@@ -92,22 +92,22 @@
 //   text.style.fontSize = fontSize + "px";
 // });
 
-const form = document.querySelector(".form");
-const firstName = document.getElementById("first_name");
-const lastName = document.getElementById("last_name");
-const phone = document.querySelector("#phone");
-const adres = document.querySelector("#adres");
-form.addEventListener("submit", () => {
-  const first = firstName.value.trim();
-  const last = lastName.value.trim();
-  const phoNum = phone.value.trim();
-  const adress = adres.value.trim();
-  if (first === "" && last === "" && phoNum === "" && adress === "") {
-    return alert("enter yout info!!!");
-  }
-  form.reset();
-  alert(
-    `u  are ${first} , ${last} your phone number is ${phoNum} and your adres is ${adress}`
-  );
-  alert("thanks ");
-});
+// const form = document.querySelector(".form");
+// const firstName = document.getElementById("first_name");
+// const lastName = document.getElementById("last_name");
+// const phone = document.querySelector("#phone");
+// const adres = document.querySelector("#adres");
+// form.addEventListener("submit", () => {
+//   const first = firstName.value.trim();
+//   const last = lastName.value.trim();
+//   const phoNum = phone.value.trim();
+//   const adress = adres.value.trim();
+//   if (first === "" && last === "" && phoNum === "" && adress === "") {
+//     return alert("enter yout info!!!");
+//   }
+//   form.reset();
+//   alert(
+//     `u  are ${first} , ${last} your phone number is ${phoNum} and your adres is ${adress}`
+//   );
+//   alert("thanks ");
+// });
