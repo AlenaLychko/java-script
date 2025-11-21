@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   background-color: #fff;
   padding: 20px;
@@ -17,7 +17,7 @@ body {
 
 gib.font{
     font-size: 33px;
-}
+} */
 
 #box {
   width: 50px;
@@ -28,3 +28,7 @@ gib.font{
   top: 50%;
   transform: translate(-50%, -50%);
 }
+canvas {
+        border: 1px solid black;
+        margin-top: 20px;
+      }
